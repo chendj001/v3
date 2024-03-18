@@ -1,6 +1,6 @@
-### vscoe中`npm`、 `pnpm`无法失败
+### vscoe 中`npm`、 `pnpm`无法失败
 
-1. 在vscode终端中输入（需要以管理员身份运行）
+1. 在 vscode 终端中输入（需要以管理员身份运行）
 
 ```shell
 get-executionpolicy
@@ -11,8 +11,9 @@ get-executionpolicy
 ```shell
 set-executionpolicy RemoteSigned
 ```
+
 此设置会更改为允许本地创建的脚本运行。
 
 3. 或者直接添加到系统变量当中
 
-`C:\Users\法本\AppData\Local\Volta\tools\image\packages\pnpm`
+`C:\Users\xxx\AppData\Local\Volta\tools\image\packages\pnpm`
