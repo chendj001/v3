@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "PKief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "sdras.vue-vscode-snippets",
+    "bertieblackman.snappier",
+    "ms-ceintl.vscode-language-pack-zh-hans"
+  ]
+}

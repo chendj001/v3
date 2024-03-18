@@ -1,0 +1,12 @@
+{
+  "name": "v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "base": "pnpm -F base dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

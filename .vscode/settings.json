@@ -1,0 +1,55 @@
+{
+  "eslint.experimental.useFlatConfig": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.fontSize": 20,
+  "eslint.rules.customizations": [
+    { "rules": "style/*", "severity": "off" },
+    { "rules": "*-indent", "severity": "off" },
+    { "rules": "*-spacing", "severity": "off" },
+    { "rules": "*-spaces", "severity": "off" },
+    { "rules": "*-order", "severity": "off" },
+    { "rules": "*-dangle", "severity": "off" },
+    { "rules": "*-newline", "severity": "off" },
+    { "rules": "*quotes", "severity": "off" },
+    { "rules": "*semi", "severity": "off" }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "yaml"
+  ],
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "eslint.timeBudget.onFixes": {
+    "warn": 3000,
+    "error": 6000
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.proseWrap": "preserve",
+  "prettier.trailingComma": "none",
+  "prettier.bracketSpacing": true,
+  "prettier.semi": false,
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "prettier.endOfLine": "auto",
+  "prettier.ignorePath": ".prettierignore",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  }
+}
