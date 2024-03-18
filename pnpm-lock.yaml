@@ -8,11 +8,28 @@ importers:
 
   .: {}
 
+  md: {}
+
   packages/base:
     dependencies:
+      md:
+        specifier: workspace:^
+        version: link:../../md
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(typescript@5.4.2)(vue@3.4.21)
+      shared:
+        specifier: workspace:^
+        version: link:../../shared
+      theme:
+        specifier: workspace:^
+        version: link:../../theme
+      tools:
+        specifier: workspace:^
+        version: link:../../tools
+      utils:
+        specifier: workspace:^
+        version: link:../../utils
       vue:
         specifier: ^3.4.21
         version: 3.4.21(typescript@5.4.2)
@@ -47,6 +64,14 @@ importers:
       vue-tsc:
         specifier: ^2.0.6
         version: 2.0.6(typescript@5.4.2)
+
+  shared: {}
+
+  theme: {}
+
+  tools: {}
+
+  utils: {}
 
 packages:
 
