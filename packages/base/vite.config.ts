@@ -5,7 +5,8 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 
 import AutoImport from 'unplugin-auto-import/vite'
-import utilsResolver from 'utils/resolver'
+//@ts-ignore
+import utilsResolver from '../../utils/resolver'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
