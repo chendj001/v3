@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     RenderIcon: typeof import('components/render')['RenderIcon']
+    RenderImage: typeof import('components/render')['RenderImage']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

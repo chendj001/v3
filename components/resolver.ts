@@ -10,7 +10,7 @@ export function componentsResolver(): any {
         return {
           name,
           from: 'components/render',
-          sideEffects: `theme/global.scss`
+          sideEffects: `components/render/index.scss`
         }
       }
     }

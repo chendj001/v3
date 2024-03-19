@@ -1,0 +1,9 @@
+$theme: #18a058;
+.render {
+  &-icon {
+    color: var(--theme, $theme);
+  }
+  &-image {
+    cursor: pointer;
+  }
+}

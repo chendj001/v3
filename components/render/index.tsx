@@ -9,3 +9,13 @@ export const RenderIcon = defineComponent({
     return () => h('div', { class: 'render-icon' }, 'render-icon')
   }
 })
+
+/**
+ * 渲染图标
+ */
+export const RenderImage = defineComponent({
+  name: 'RenderImage',
+  setup() {
+    return () => h('div', { class: 'render-image' }, '🤮')
+  }
+})
