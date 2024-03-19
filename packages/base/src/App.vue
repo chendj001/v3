@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import { RenderIcon } from 'components/render'
-</script>
+<script setup lang="ts" name="App"></script>
 
 <template>
   <div>

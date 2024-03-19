@@ -7,6 +7,7 @@ import ViteComponents from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 //@ts-ignore
 import utilsResolver from '../../utils/resolver'
+import componentsResolver from '../../components/resolver'
 
 import vueSetupExtend from 'vite-plugin-vue-setup-extend'
 
@@ -28,7 +29,9 @@ export default defineConfig({
       resolvers: [utilsResolver()]
     }),
     vueSetupExtend(),
-    ViteComponents()
+    ViteComponents({
+      resolvers: [componentsResolver()]
+    })
   ],
   resolve: {
     alias: {

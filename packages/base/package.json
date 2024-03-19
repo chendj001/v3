@@ -24,6 +24,7 @@
     "components": "workspace:^",
     "md": "workspace:^",
     "npm-run-all2": "^6.1.2",
+    "sass": "^1.72.0",
     "shared": "workspace:^",
     "theme": "workspace:^",
     "tools": "workspace:^",

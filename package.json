@@ -12,6 +12,7 @@
   "devDependencies": {
     "components": "workspace:^",
     "md": "workspace:^",
+    "sass": "^1.72.0",
     "shared": "workspace:^",
     "theme": "workspace:^",
     "tools": "workspace:^",
