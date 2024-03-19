@@ -1,12 +1,12 @@
 ### 显示本地推荐插件
 
-你可以通过VSCode的命令面板来显示推荐插件。按下 `Ctrl+Shift+P`（Windows/Linux）或 `Cmd+Shift+P`（Mac）打开命令面板，然后输入以下命令：
+你可以通过 VSCode 的命令面板来显示推荐插件。按下 `Ctrl+Shift+P`（Windows/Linux）或 `Cmd+Shift+P`（Mac）打开命令面板，然后输入以下命令：
 
 ```shell
 Extensions: Show Recommended Extensions
 ```
 
-这个命令会显示VSCode推荐的插件列表，你可以从中选择安装你感兴趣的插件。
+这个命令会显示 VSCode 推荐的插件列表，你可以从中选择安装你感兴趣的插件。
 
 ### 新增依赖
 
@@ -21,7 +21,7 @@ pnpm install sass -Dw
 ### 给指定仓库添加依赖
 
 ```shell
-pnpm -F base add sass
+pnpm -F base add sass -Dw
 ```
 
 这个命令使用 `pnpm` 包管理器，在名为 "base" 的仓库中强制添加 `sass` 依赖项。

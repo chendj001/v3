@@ -11,12 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "md": "workspace:^",
     "pinia": "^2.1.7",
-    "shared": "workspace:^",
-    "theme": "workspace:^",
-    "tools": "workspace:^",
-    "utils": "workspace:^",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
@@ -26,8 +21,14 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "@vue/tsconfig": "^0.5.1",
+    "md": "workspace:^",
     "npm-run-all2": "^6.1.2",
+    "shared": "workspace:^",
+    "theme": "workspace:^",
+    "tools": "workspace:^",
     "typescript": "~5.4.0",
+    "unplugin-auto-import": "^0.17.5",
+    "utils": "workspace:^",
     "vite": "^5.1.5",
     "vue-tsc": "^2.0.6"
   }

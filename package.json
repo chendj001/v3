@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "md": "workspace:^",
+    "shared": "workspace:^",
+    "theme": "workspace:^",
+    "tools": "workspace:^",
+    "unplugin-auto-import": "^0.17.5",
+    "utils": "workspace:^"
+  }
 }
