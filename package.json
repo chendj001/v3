@@ -16,5 +16,8 @@
     "tools": "workspace:^",
     "unplugin-auto-import": "^0.17.5",
     "utils": "workspace:^"
+  },
+  "volta": {
+    "node": "18.16.0"
   }
 }
