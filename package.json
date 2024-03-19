@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "components": "workspace:^",
     "md": "workspace:^",
     "shared": "workspace:^",
     "theme": "workspace:^",

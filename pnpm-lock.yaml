@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      components:
+        specifier: workspace:^
+        version: link:components
       md:
         specifier: workspace:^
         version: link:md
@@ -26,6 +29,8 @@ importers:
       utils:
         specifier: workspace:^
         version: link:utils
+
+  components: {}
 
   md: {}
 
@@ -56,6 +61,9 @@ importers:
       '@vue/tsconfig':
         specifier: ^0.5.1
         version: 0.5.1
+      components:
+        specifier: workspace:^
+        version: link:../../components
       md:
         specifier: workspace:^
         version: link:../../md
