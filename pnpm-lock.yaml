@@ -30,7 +30,45 @@ importers:
         specifier: workspace:^
         version: link:utils
 
-  components: {}
+  components:
+    dependencies:
+      pinia:
+        specifier: ^2.1.7
+        version: 2.1.7(typescript@5.4.2)(vue@3.4.21)
+      vue:
+        specifier: ^3.4.21
+        version: 3.4.21(typescript@5.4.2)
+      vue-router:
+        specifier: ^4.3.0
+        version: 4.3.0(vue@3.4.21)
+    devDependencies:
+      '@tsconfig/node20':
+        specifier: ^20.1.2
+        version: 20.1.2
+      '@types/node':
+        specifier: ^20.11.25
+        version: 20.11.29
+      '@vitejs/plugin-vue':
+        specifier: ^5.0.4
+        version: 5.0.4(vite@5.1.6)(vue@3.4.21)
+      '@vitejs/plugin-vue-jsx':
+        specifier: ^3.1.0
+        version: 3.1.0(vite@5.1.6)(vue@3.4.21)
+      '@vue/tsconfig':
+        specifier: ^0.5.1
+        version: 0.5.1
+      npm-run-all2:
+        specifier: ^6.1.2
+        version: 6.1.2
+      typescript:
+        specifier: ~5.4.0
+        version: 5.4.2
+      vite:
+        specifier: ^5.1.5
+        version: 5.1.6(@types/node@20.11.29)
+      vue-tsc:
+        specifier: ^2.0.6
+        version: 2.0.6(typescript@5.4.2)
 
   md: {}
 
