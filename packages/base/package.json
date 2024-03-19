@@ -29,8 +29,11 @@
     "tools": "workspace:^",
     "typescript": "~5.4.0",
     "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
     "utils": "workspace:^",
     "vite": "^5.1.5",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
     "vue-tsc": "^2.0.6"
   }
 }

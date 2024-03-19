@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RenderIcon } from 'components/render'
+</script>
 
 <template>
-  <div>123</div>
+  <div>
+    <RenderIcon></RenderIcon>
+  </div>
 </template>
 
 <style scoped>

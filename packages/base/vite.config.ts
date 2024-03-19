@@ -3,10 +3,13 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-
+import ViteComponents from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 //@ts-ignore
 import utilsResolver from '../../utils/resolver'
+
+import vueSetupExtend from 'vite-plugin-vue-setup-extend'
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -23,7 +26,9 @@ export default defineConfig({
       // global imports to register
       imports: ['vue', 'vue-router'],
       resolvers: [utilsResolver()]
-    })
+    }),
+    vueSetupExtend(),
+    ViteComponents()
   ],
   resolve: {
     alias: {

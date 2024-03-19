@@ -16,7 +16,10 @@
     "theme": "workspace:^",
     "tools": "workspace:^",
     "unplugin-auto-import": "^0.17.5",
-    "utils": "workspace:^"
+    "unplugin-vue-components": "^0.26.0",
+    "utils": "workspace:^",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-vue-setup-extend": "^0.4.0"
   },
   "volta": {
     "node": "18.16.0"
