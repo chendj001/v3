@@ -1,7 +1,7 @@
 /**
  * 解析器
  */
-export const componentsResolver = () => {
+export function componentsResolver(): any {
   return {
     type: 'component',
     resolve: (name: string) => {
