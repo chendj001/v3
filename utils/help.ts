@@ -1,3 +1,4 @@
+import { version } from './package.json'
 /**
  * 睡眠几秒
  */
@@ -8,3 +9,7 @@ export async function sleep(time: number): Promise<boolean> {
     }, time)
   })
 }
+/**
+ * 版本
+ */
+export const getVer = () => `utils - ${version}`
